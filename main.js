@@ -953,5 +953,6 @@ $(document).ready(function() {
 }));
 
 $(document).ready(function() {
+  jQuery.noConflict();
   funneling.Booknow.init();
 });
